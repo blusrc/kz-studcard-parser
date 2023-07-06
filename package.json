@@ -1,0 +1,23 @@
+{
+  "name": "kz-student-card-parser",
+  "version": "1.0.0",
+  "description": "typesafely parse student cards used in Kazakhstan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --watch",
+    "start": "npm run build | nodemon dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "@types/pdf-parse": "^1.1.1",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1"
+  }
+}
